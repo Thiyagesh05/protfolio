@@ -67,7 +67,20 @@ export const Terminal: React.FC = () => {
         res = '1. BillPro  2. Cable Connect Hub  3. Movie Rating & Download  4. Developer Portfolio';
         break;
       case 'contact':
-        res = `Email: contact@thiyagesh.dev | GitHub: ${DEVELOPER_PROFILE.socials.github} | LinkedIn: ${DEVELOPER_PROFILE.socials.linkedin}`;
+        res = `Email: ${DEVELOPER_PROFILE.socials.emailRaw} | GitHub: ${DEVELOPER_PROFILE.socials.github} | LinkedIn: ${DEVELOPER_PROFILE.socials.linkedin}`;
+        break;
+      case 'email':
+        res = (
+          <span>
+            Email:{' '}
+            <a
+              href={DEVELOPER_PROFILE.socials.email}
+              className="text-emerald-400 underline hover:text-emerald-300"
+            >
+              {DEVELOPER_PROFILE.socials.emailRaw}
+            </a>
+          </span>
+        );
         break;
       case 'github':
         res = (
@@ -128,7 +141,7 @@ export const Terminal: React.FC = () => {
         );
         break;
       case 'help':
-        res = 'Available commands: whoami, role, stack, status, education, projects, contact, github, linkedin, socials, clear, ./build-future.sh';
+        res = 'Available commands: whoami, role, stack, status, education, projects, contact, email, github, linkedin, socials, clear, ./build-future.sh';
         break;
       case 'clear':
         setHistory([]);

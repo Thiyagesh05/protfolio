@@ -145,7 +145,7 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-xs text-slate-400">Email Direct</div>
-                    <div className="text-sm font-semibold">contact@thiyagesh.dev</div>
+                    <div className="text-sm font-semibold font-mono text-emerald-300">{DEVELOPER_PROFILE.socials.emailRaw}</div>
                   </div>
                 </a>
               </div>

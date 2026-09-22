@@ -24,6 +24,7 @@ export const DEVELOPER_PROFILE = {
     githubUsername: "thiyageshmohan2005-svg",
     linkedin: "https://www.linkedin.com/in/thiyagesh-mohan-nov30",
     linkedinHandle: "thiyagesh-mohan-nov30",
-    email: "mailto:contact@thiyagesh.dev"
+    email: "mailto:thiyageshmohan2005@gmail.com",
+    emailRaw: "thiyageshmohan2005@gmail.com"
   }
 };
