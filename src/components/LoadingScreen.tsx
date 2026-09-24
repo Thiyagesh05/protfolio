@@ -69,7 +69,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             className="text-center space-y-3 z-10"
           >
             <h1 className="text-2xl md:text-3xl font-bold tracking-widest text-gradient font-heading">
-              THIYAGESH.DEV
+              THIYAGESH
             </h1>
 
             <div className="flex items-center justify-center space-x-2 text-xs font-mono text-cyan-400/90 tracking-wider">

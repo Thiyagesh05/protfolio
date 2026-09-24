@@ -115,7 +115,7 @@ export const PROJECTS_DATA: Project[] = [
       "Smooth scroll reveals & ambient particle fields",
       "Fully validated interactive contact portal"
     ],
-    liveUrl: "https://thiyagesh.dev",
+    liveUrl: "#home",
     githubUrl: "https://github.com/thiyageshmohan2005-svg/3d-portfolio",
     featured: false,
     problem: "Standard static resumes fail to visually demonstrate frontend development, 3D graphics interaction, and modern UI engineering capabilities.",

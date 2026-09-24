@@ -1,6 +1,6 @@
 export const DEVELOPER_PROFILE = {
   name: "Thiyagesh",
-  logoText: "THIYAGESH.DEV",
+  logoText: "THIYAGESH",
   roles: ["Web Developer", "React Developer", "MERN Stack Developer"],
   education: {
     degree: "B.Tech Artificial Intelligence & Data Science",

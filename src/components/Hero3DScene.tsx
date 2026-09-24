@@ -133,7 +133,7 @@ const CSS3DFallback: React.FC<{ mouseX: number; mouseY: number }> = ({ mouseX, m
           <span className="w-3 h-3 rounded-full bg-yellow-500/80 inline-block" />
           <span className="w-3 h-3 rounded-full bg-emerald-500/80 inline-block" />
         </div>
-        <span className="text-xs font-mono text-cyan-400">thiyagesh.dev/workspace</span>
+        <span className="text-xs font-mono text-cyan-400">thiyagesh/workspace</span>
       </div>
 
       <div className="font-mono text-sm space-y-2 py-4">
